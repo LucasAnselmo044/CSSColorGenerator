@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+
+body {
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.color-display {
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border: 2px solid #fff; /* Borda branca */
+    transition: background-color 0.3s ease;
+}
+
+.color-code {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
